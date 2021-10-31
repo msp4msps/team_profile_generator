@@ -1,4 +1,4 @@
-const Employee = require("./Employee");
+const Employee = require("../lib/Employee");
 
 describe("Can instanciate Employeee instance and call all parameters/functions", () => {
   it("can instanciate Employeee Instance", () => {
