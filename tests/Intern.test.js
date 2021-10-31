@@ -1,23 +1,22 @@
-const fizzBuzz = require("../fizz");
+const Intern = require("../lib/Engineer");
 
-describe("fizzBuzz", () => {
-  it("should return the number if not a multiple of three or five", () => {
-    expect(fizzBuzz([1])).toBe("1");
-    expect(fizzBuzz([1, 2])).toBe("1, 2");
+describe("Can instanciate Intern instance and call all parameters/functions", () => {
+  it("can instanciate Intern Instance", () => {
+    const NewEmployee = new Intern();
+    expect(typeof NewEmployee).toBe("object");
   });
-
-  it("should return Fizz if multiple of 3", () => {
-    expect(fizzBuzz([3])).toBe("Fizz");
-    expect(fizzBuzz([3, 6, 12])).toBe("Fizz, Fizz, Fizz");
+  it("can set school of intern", () => {
+    const school = "The Villages";
+    const NewEmployee = new Intern("Nick", 1, "nick@gmai;.com", school);
+    expect(NewEmployee.school).toBe(school);
   });
-
-  it("should return Buzz if multiple of 5", () => {
-    expect(fizzBuzz([10])).toBe("Buzz");
-    expect(fizzBuzz([10, 20, 25])).toBe("Buzz, Buzz, Buzz");
+  it("can return internschool", () => {
+    const School = "The Villages";
+    const NewEmployee = new Intern("Nick", 1, "nick@gmai;.com", School);
+    expect(NewEmployee.getSchool).toBe(School);
   });
-
-  it("should return FizzBuzz if a multiple of both 3 and 5", () => {
-    expect(fizzBuzz([15])).toBe("FizzBuzz");
-    expect(fizzBuzz([15, 30, 45])).toBe("FizzBuzz, FizzBuzz, FizzBuzz");
+  it("can get role of employee", () => {
+    const NewEmployee = new Intern("nick", 1, "Email", "The Villages");
+    expect(NewEmployee.getRole()).toBe("Intern");
   });
 });
