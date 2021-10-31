@@ -1,4 +1,4 @@
-const Employee = require("../lib/Engineer");
+const Engineer = require("../lib/Engineer");
 
 describe("Can instanciate Engineer instance and call all parameters/functions", () => {
   it("can instanciate Engineer Instance", () => {
