@@ -13,7 +13,7 @@ describe("Can instanciate Engineer instance and call all parameters/functions", 
   it("can return github engineer", () => {
     const github = "msp4msps";
     const NewEmployee = new Engineer("Nick", 1, "nick@gmai;.com", github);
-    expect(NewEmployee.getGithub).toBe(github);
+    expect(NewEmployee.getGithub()).toBe(github);
   });
   it("can get role of employee", () => {
     const NewEmployee = new Engineer("nick", 1, "Email", "msp4msps");

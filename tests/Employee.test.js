@@ -26,9 +26,9 @@ describe("Can instanciate Employeee instance and call all parameters/functions",
     expect(NewEmployee.getname()).toBe(name);
   });
   it("can get Id of employee", () => {
-    const Id = "2";
-    const NewEmployee = new Employee("Nick", Id);
-    expect(NewEmployee.getId()).toBe(Id);
+    const id = 2;
+    const NewEmployee = new Employee("Nick", id);
+    expect(NewEmployee.getId()).toBe(id);
   });
   it("can get Email of employee", () => {
     const Email = "Nick@gmail.com";
@@ -36,7 +36,7 @@ describe("Can instanciate Employeee instance and call all parameters/functions",
     expect(NewEmployee.getEmail()).toBe(Email);
   });
   it("can get role of employee", () => {
-    const NewEmployee = new Employee("nick", 1, Email);
+    const NewEmployee = new Employee("nick", 1, "msp4msps@gmail/com");
     expect(NewEmployee.getRole()).toBe("Employee");
   });
 });

@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/msp4msps/team_profile_generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
     "jest": "^27.3.1"
   }
 }
