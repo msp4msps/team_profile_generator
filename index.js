@@ -12,6 +12,12 @@ const render = require("./lib/htmlrender");
 
 const questions = [
   {
+    type: "list",
+    name: "role",
+    message: "What is team member's role?",
+    choices: ["Manager", "Engineer", "Intern"],
+  },
+  {
     type: "input",
     name: "name",
     message: "What is the team member's name?",
@@ -26,12 +32,6 @@ const questions = [
     type: "input",
     name: "email",
     message: "What is the team member's email?",
-  },
-  {
-    type: "list",
-    name: "role",
-    message: "What is team member's role?",
-    choices: ["Manager", "Engineer", "Intern"],
   },
 ];
 
