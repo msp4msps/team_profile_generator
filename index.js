@@ -78,31 +78,18 @@ const generateTeam = () => {
               A1.name,
               A1.id,
               A1.email,
-              A1.role,
               A2.officeNumber
             );
             team.push(manager);
           }
 
           if (A1.role === "Engineer") {
-            const engineer = new Engineer(
-              A1.name,
-              A1.id,
-              A1.email,
-              A1.role,
-              A2.github
-            );
+            const engineer = new Engineer(A1.name, A1.id, A1.email, A2.github);
             team.push(engineer);
           }
 
           if (A1.role === "Intern") {
-            const intern = new Intern(
-              A1.name,
-              A1.id,
-              A1.email,
-              A1.role,
-              A2.school
-            );
+            const intern = new Intern(A1.name, A1.id, A1.email, A2.school);
             team.push(intern);
           }
           if (A2.addMember) {
