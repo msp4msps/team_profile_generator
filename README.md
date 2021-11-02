@@ -28,7 +28,7 @@ https://github.com/msp4msps/team_profile_generator<br>
 
 ## Screenshots-Demo
 
-<kbd>![screenshot1](Assets/Screenshot1.png)</kbd><kbd>![screenshot2](Assets/Sceenshot2.png)</kbd>
+<kbd>![screenshot1](Assets/Screenshot1.png)</kbd><kbd>![screenshot2](Assets/Screenshot2.png)</kbd>
 
 ## Project Description
 
