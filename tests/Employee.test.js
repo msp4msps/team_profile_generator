@@ -23,7 +23,7 @@ describe("Can instanciate Employeee instance and call all parameters/functions",
   it("can get name of employee", () => {
     const name = "Nick";
     const NewEmployee = new Employee(name);
-    expect(NewEmployee.getname()).toBe(name);
+    expect(NewEmployee.getName()).toBe(name);
   });
   it("can get Id of employee", () => {
     const id = 2;
