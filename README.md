@@ -26,6 +26,12 @@
 
 https://github.com/msp4msps/team_profile_generator<br>
 
+Showing Jest Test
+https://watch.screencastify.com/v/uMYOYYRjDCRxGYbFM1bp<br>
+
+Running Team Profile Generator
+https://watch.screencastify.com/v/C93BGJz83rh4HaB5fSsk<br>
+
 ## Screenshots-Demo
 
 <kbd>![screenshot1](Assets/Screenshot1.png)</kbd><kbd>![screenshot2](Assets/Screenshot2.png)</kbd>
